@@ -53,16 +53,6 @@ AddEventHandler("sadiqBilling:PayInvoice", function(invoice_id)
 			playerMoney = 0
 		end
 
-		--[[if playerMoney < invoices.invoice_value then
-			TriggerClientEvent('okokNotify:Alert', xPlayer.source, "BILLING", "You don't have enough money!", 10000, 'error')
-		else
-			xPlayer.removeAccountMoney('bank', invoices.invoice_value)
-			TriggerEvent("esx_addonaccount:getSharedAccount", invoices.society, function(account)
-				if account ~= nil then
-					account.addMoney(invoices.invoice_value)
-				end
-			end)
-]]
 			if playerMoney < invoice.inoice_value then 
 				TriggerClientEvent('okokNotify:Alert', xPlayer.source, "BILLING", "You don't have enough money!", 10000, 'error')
 			else 
