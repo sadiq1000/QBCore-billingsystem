@@ -28,6 +28,8 @@ you can always appreciate my work via donation :
 
 https://www.buymeacoffee.com/farhansadiq
 
+join our discord 
+https://discord.gg/nEPusVTyGC
 
 Dependecies 
 
